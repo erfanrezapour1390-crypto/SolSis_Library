@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>x64</Platforms>
+    <AssemblyName>SolSis Library</AssemblyName>
+    <RootNamespace>SolSis.Library</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup><Reference Include="Microsoft.VisualBasic" /></ItemGroup>
+</Project>
